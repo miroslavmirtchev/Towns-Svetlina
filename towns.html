@@ -9,26 +9,31 @@
 </head>
 
 <body>
-
-<h1>Towns</h1>
-<select id="towns" size="4">
-    <option>Sofia</option>
-    <option>Plovdiv</option>
-    <option>Varna</option>
-    <option>Bourgas</option>
-</select>
+<article>
+    <header>Towns</header>
+    <select id="towns" size="4">
+        <option>Sofia</option>
+        <option>Plovdiv</option>
+        <option>Varna</option>
+        <option>Bourgas</option>
+    </select>
+</article>
 
 <article class="container"> 
-    <input type="text" id="addTownInput" />
-    <button id="btnAdd">Add</button>
+        <input type="text" id="addTownInput" />
+        <button id="btnAdd">Add</button>
 </article>
 
 
-<div>
-    <input type="text" id="townName" />
-    <button id="btnDelete">Delete</button>
-</div>
+<article class="container">
+        <button id="btnShuffle">Shuffle</button>
+</article>
 
+<article class="container">
+        <header>Delete Existing town</header>
+        <input type="text" id="townName" />
+        <button id="btnDelete">Delete</button>
+</article>
 
 <div id="result"></div>
 
